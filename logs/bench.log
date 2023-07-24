@@ -1,0 +1,111 @@
+2023-07-13 10:16:35,548 DEBUG cd frappe-bench && python3 -m venv env
+2023-07-13 10:16:39,895 DEBUG cd frappe-bench && /home/admin1/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-07-13 10:16:42,223 DEBUG cd frappe-bench && /home/admin1/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-07-13 10:16:46,898 LOG Getting frappe
+2023-07-13 10:16:46,898 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-07-13 10:17:18,063 LOG Installing frappe
+2023-07-13 10:17:18,063 DEBUG cd /home/admin1/frappe-bench && /home/admin1/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/admin1/frappe-bench/apps/frappe 
+2023-07-13 10:17:56,672 DEBUG cd /home/admin1/frappe-bench/apps/frappe && yarn install
+2023-07-13 10:18:06,419 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-13 10:18:06,420 DEBUG cd frappe-bench && bench build
+2023-07-13 10:18:06,548 INFO /home/admin1/myenv/bin/bench build
+2023-07-13 10:18:30,408 LOG setting up backups
+2023-07-13 10:18:30,422 LOG backups were set up
+2023-07-13 10:18:30,422 INFO Bench frappe-bench initialized
+2023-07-13 10:18:30,610 INFO A newer version of bench is available: 5.16.3 → 5.16.4
+2023-07-13 10:19:19,228 INFO /home/admin1/myenv/bin/bench new-site dcode.com
+2023-07-13 10:22:22,644 INFO /home/admin1/myenv/bin/bench use dcode.com
+2023-07-13 10:22:32,233 INFO /home/admin1/myenv/bin/bench start
+2023-07-13 10:22:32,665 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-13 10:22:32,708 INFO /home/admin1/myenv/bin/bench watch
+2023-07-13 10:22:32,808 INFO /home/admin1/myenv/bin/bench worker
+2023-07-13 10:22:32,847 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-13 10:24:41,858 INFO /home/admin1/myenv/bin/bench new-app todo.com
+2023-07-13 10:24:42,124 INFO A newer version of bench is available: 5.16.3 → 5.16.4
+2023-07-13 10:25:04,698 INFO /home/admin1/myenv/bin/bench new-app todo-app
+2023-07-13 10:25:04,703 LOG creating new app todo_app
+2023-07-13 10:25:36,285 LOG Installing todo_app
+2023-07-13 10:25:36,286 DEBUG cd /home/admin1/frappe-bench && /home/admin1/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/admin1/frappe-bench/apps/todo_app 
+2023-07-13 10:25:38,935 DEBUG bench build --app todo_app
+2023-07-13 10:25:39,062 INFO /home/admin1/myenv/bin/bench build --app todo_app
+2023-07-13 10:25:41,753 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-13 10:25:41,962 INFO A newer version of bench is available: 5.16.3 → 5.16.4
+2023-07-13 10:26:59,426 INFO /home/admin1/myenv/bin/bench --site dcode.com install todo_app
+2023-07-13 10:26:59,429 WARNING /home/admin1/myenv/bin/bench --site dcode.com install todo_app executed with exit code 2
+2023-07-13 10:26:59,708 INFO A newer version of bench is available: 5.16.3 → 5.16.4
+2023-07-13 10:28:07,106 INFO /home/admin1/myenv/bin/bench --site dcode.com install-app todo_app
+2023-07-13 10:28:28,931 INFO /home/admin1/myenv/bin/bench start
+2023-07-13 10:28:29,369 INFO /home/admin1/myenv/bin/bench watch
+2023-07-13 10:28:29,398 INFO /home/admin1/myenv/bin/bench worker
+2023-07-13 10:28:29,461 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-13 10:28:29,482 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-13 10:29:51,060 INFO /home/admin1/myenv/bin/bench get-app https://github.com/NagariaHussain/doppio
+2023-07-13 10:29:51,069 LOG Getting doppio
+2023-07-13 10:29:51,069 DEBUG cd ./apps && git clone https://github.com/NagariaHussain/doppio  --depth 1 --origin upstream
+2023-07-13 10:29:52,343 LOG Installing doppio
+2023-07-13 10:29:52,537 DEBUG cd /home/admin1/frappe-bench && /home/admin1/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/admin1/frappe-bench/apps/doppio 
+2023-07-13 10:29:56,053 DEBUG cd /home/admin1/frappe-bench/apps/doppio && yarn install
+2023-07-13 10:30:24,385 DEBUG bench build --app doppio
+2023-07-13 10:30:24,519 INFO /home/admin1/myenv/bin/bench build --app doppio
+2023-07-13 10:30:27,149 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-07-13 10:30:27,361 INFO A newer version of bench is available: 5.16.3 → 5.16.4
+2023-07-13 10:30:58,365 INFO /home/admin1/myenv/bin/bench add-spa
+2023-07-13 10:33:38,198 INFO /home/admin1/myenv/bin/bench start
+2023-07-13 10:33:38,750 INFO /home/admin1/myenv/bin/bench watch
+2023-07-13 10:33:38,751 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-13 10:33:38,773 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-13 10:33:38,789 INFO /home/admin1/myenv/bin/bench worker
+2023-07-13 11:48:46,223 INFO /home/admin1/myenv/bin/bench start
+2023-07-13 11:48:46,682 INFO /home/admin1/myenv/bin/bench watch
+2023-07-13 11:48:46,721 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-13 11:48:46,798 INFO /home/admin1/myenv/bin/bench worker
+2023-07-13 11:48:46,884 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-13 12:00:01,208 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-14 11:57:21,878 INFO /home/admin1/myenv/bin/bench start
+2023-07-14 11:57:59,662 INFO /home/admin1/myenv/bin/bench start
+2023-07-14 11:59:30,952 INFO /home/admin1/myenv/bin/bench start
+2023-07-14 11:59:31,373 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-14 11:59:31,405 INFO /home/admin1/myenv/bin/bench watch
+2023-07-14 11:59:31,450 INFO /home/admin1/myenv/bin/bench worker
+2023-07-14 11:59:31,452 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-14 12:00:01,429 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-14 15:03:06,679 INFO /home/admin1/myenv/bin/bench mariadb
+2023-07-14 15:04:51,654 INFO /home/admin1/myenv/bin/bench mariadb
+2023-07-14 15:05:48,369 INFO /home/admin1/myenv/bin/bench start
+2023-07-14 15:05:48,831 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-14 15:05:48,834 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-14 15:05:48,861 INFO /home/admin1/myenv/bin/bench watch
+2023-07-14 15:05:48,883 INFO /home/admin1/myenv/bin/bench worker
+2023-07-14 15:09:20,037 INFO /home/admin1/myenv/bin/bench mriadb
+2023-07-14 15:09:26,212 INFO /home/admin1/myenv/bin/bench mariadb
+2023-07-14 15:10:46,074 INFO /home/admin1/myenv/bin/bench start
+2023-07-14 15:10:46,533 INFO /home/admin1/myenv/bin/bench watch
+2023-07-14 15:10:46,571 INFO /home/admin1/myenv/bin/bench worker
+2023-07-14 15:10:46,604 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-14 15:10:46,621 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-17 09:53:17,236 INFO /home/admin1/myenv/bin/bench start
+2023-07-17 09:53:17,743 INFO /home/admin1/myenv/bin/bench watch
+2023-07-17 09:53:17,761 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-17 09:53:17,810 INFO /home/admin1/myenv/bin/bench worker
+2023-07-17 09:53:17,882 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-17 12:00:01,742 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-17 18:00:01,985 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-18 12:00:01,336 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-18 18:00:01,745 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-19 12:00:01,608 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-19 18:00:01,309 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-20 12:00:01,866 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-20 18:00:01,282 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-21 11:49:23,149 INFO /home/admin1/myenv/bin/bench start
+2023-07-21 11:49:23,946 INFO /home/admin1/myenv/bin/bench worker
+2023-07-21 11:49:24,019 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-21 11:49:24,077 INFO /home/admin1/myenv/bin/bench watch
+2023-07-21 11:49:24,086 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-21 12:00:01,347 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-21 18:00:01,312 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-24 12:00:01,574 INFO /home/admin1/myenv/bin/bench --verbose --site all backup
+2023-07-24 17:50:42,171 INFO /home/admin1/myenv/bin/bench start
+2023-07-24 17:50:42,710 INFO /home/admin1/myenv/bin/bench worker
+2023-07-24 17:50:42,785 INFO /home/admin1/myenv/bin/bench serve --port 8000
+2023-07-24 17:50:42,793 INFO /home/admin1/myenv/bin/bench schedule
+2023-07-24 17:50:42,831 INFO /home/admin1/myenv/bin/bench watch

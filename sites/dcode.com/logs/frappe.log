@@ -1,0 +1,27 @@
+2023-07-13 10:43:11,095 ERROR frappe New Exception collected with id: 2023-07-13 10:43:11.005592-127.0.0.1-edb
+Site: dcode.com
+Form Dict: {'limit_page_length': 20}
+2023-07-13 10:45:03,444 ERROR frappe New Exception collected with id: 2023-07-13 10:45:03.441319-127.0.0.1-aba
+Site: dcode.com
+Form Dict: {'fields': '[*]'}
+2023-07-13 10:45:08,770 ERROR frappe New Exception collected with id: 2023-07-13 10:45:08.767765-127.0.0.1-b08
+Site: dcode.com
+Form Dict: {'fields': '*'}
+2023-07-13 10:52:43,365 ERROR frappe New Exception collected with id: 2023-07-13 10:52:43.361216-127.0.0.1-777
+Site: dcode.com
+Form Dict: {'fields': '[*]'}
+2023-07-24 10:38:45,057 ERROR frappe New Exception collected with id: 2023-07-24 10:38:44.898501-127.0.0.1-36d
+Site: dcode.com
+Form Dict: {'limit_page_length': 20}
+2023-07-24 10:38:45,094 ERROR frappe New Exception collected with id: 2023-07-24 10:38:45.089048-127.0.0.1-843
+Site: dcode.com
+Form Dict: {'limit_page_length': 20}
+2023-07-24 10:38:58,620 ERROR frappe New Exception collected with id: 2023-07-24 10:38:58.615169-127.0.0.1-8ff
+Site: dcode.com
+Form Dict: {'limit_page_length': 20}
+2023-07-24 10:39:11,357 ERROR frappe New Exception collected with id: 2023-07-24 10:39:11.352763-127.0.0.1-7b9
+Site: dcode.com
+Form Dict: {'limit_page_length': 20}
+2023-07-24 10:39:11,448 ERROR frappe New Exception collected with id: 2023-07-24 10:39:11.442015-127.0.0.1-6ca
+Site: dcode.com
+Form Dict: {'limit_page_length': 20}

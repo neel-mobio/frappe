@@ -1,0 +1,78 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230713_120002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-13 12:00:02.920867
+Config  : ./dcode.com/private/backups/20230713_120002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230713_120002-dcode_com-database.sql.gz         268.7KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230714_120002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-14 12:00:03.141285
+Config  : ./dcode.com/private/backups/20230714_120002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230714_120002-dcode_com-database.sql.gz         274.7KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230717_120002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-17 12:00:03.343320
+Config  : ./dcode.com/private/backups/20230717_120002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230717_120002-dcode_com-database.sql.gz         280.4KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230717_180003-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-17 18:00:03.484138
+Config  : ./dcode.com/private/backups/20230717_180003-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230717_180003-dcode_com-database.sql.gz         283.9KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230718_120002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-18 12:00:03.174114
+Config  : ./dcode.com/private/backups/20230718_120002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230718_120002-dcode_com-database.sql.gz         287.1KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230718_180002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-18 18:00:03.442006
+Config  : ./dcode.com/private/backups/20230718_180002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230718_180002-dcode_com-database.sql.gz         290.4KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230719_120003-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-19 12:00:04.050749
+Config  : ./dcode.com/private/backups/20230719_120003-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230719_120003-dcode_com-database.sql.gz         293.4KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230719_180002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-19 18:00:02.747423
+Config  : ./dcode.com/private/backups/20230719_180002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230719_180002-dcode_com-database.sql.gz         296.8KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230720_120003-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-20 12:00:03.714629
+Config  : ./dcode.com/private/backups/20230720_120003-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230720_120003-dcode_com-database.sql.gz         299.2KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230720_180002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-20 18:00:02.869396
+Config  : ./dcode.com/private/backups/20230720_180002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230720_180002-dcode_com-database.sql.gz         302.6KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230721_120002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-21 12:00:03.180158
+Config  : ./dcode.com/private/backups/20230721_120002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230721_120002-dcode_com-database.sql.gz         305.7KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230721_180003-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-21 18:00:04.331817
+Config  : ./dcode.com/private/backups/20230721_180003-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230721_180003-dcode_com-database.sql.gz         309.2KiB
+Backup for Site dcode.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3b325a761fd3cd8b -p********** _3b325a761fd3cd8b -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcode.com/private/backups/20230724_120002-dcode_com-database.sql.gz
+
+Backup Summary for dcode.com at 2023-07-24 12:00:03.776259
+Config  : ./dcode.com/private/backups/20230724_120002-dcode_com-site_config_backup.json 161.0B
+Database: ./dcode.com/private/backups/20230724_120002-dcode_com-database.sql.gz         311.3KiB
+Backup for Site dcode.com has been successfully completed

@@ -1,0 +1,31 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "14.40.3"
+    },
+    "todo_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "f1a271b092351ba989ed70f934f626c844d4e853",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "doppio": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "94d4035d45fc8dbf4b6e6abbe8cc05324a4e2398",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    }
+}
